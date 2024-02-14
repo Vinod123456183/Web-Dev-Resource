@@ -1,0 +1,44 @@
+
+<!-- Array Of object -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        var arr = [
+
+            {
+                name : "vin",
+                class : 10
+            } ,
+
+            {
+                name : "Ss",
+                class : 11
+            } ,
+
+            {
+                name :"As",
+                class : 44
+            }
+
+        ]
+
+        document.write(arr[0].class);
+
+        for(var a = 0 ; a < arr.length; a++) {
+            document.write(arr[a].name + " " + arr[a].class);
+            document.write("</br>");
+        }
+
+    </script>
+
+</body>
+</html>
