@@ -1,0 +1,14 @@
+console.log(document);
+console.log(document.all);
+console.log(document.documentElement);
+console.log(document.head);
+console.log(document.title);
+console.log(document.baseURI);
+console.log(document.body);
+console.log(document.images);
+console.log(document.anchors);
+console.log(document.links);
+console.log(document.forms);
+console.log(document.domain);
+console.log(document.baseURI);
+console.log(document.URL);
