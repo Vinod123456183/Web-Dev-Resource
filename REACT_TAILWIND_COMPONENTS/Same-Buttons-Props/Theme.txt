@@ -1,0 +1,3 @@
+ek jasie do button with different property 
+
+ek button k andar saara chiz then pass by props 
