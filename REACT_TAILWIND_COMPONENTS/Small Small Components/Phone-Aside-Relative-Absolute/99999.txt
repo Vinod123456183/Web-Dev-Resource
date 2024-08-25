@@ -1,0 +1,14 @@
+To Create positon relative and absolute 
+
+= main wale ko absolute kro , p-1 , w-[50%] bg-red
+
+  = childrens walo ko rlative  
+    
+    => jisko upar dikhana h uska z index utna increase kro uski min-w-[350px] w-40 {} Right = 0 {}
+    => absolute min-w-[300px] w-36 top-14 right-0 
+
+
+Main Crux  
+
+=> w-50 % of the parent and relative
+  =>r-0 of childer with min - w with absolute
