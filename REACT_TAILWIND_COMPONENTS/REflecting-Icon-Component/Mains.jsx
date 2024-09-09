@@ -1,3 +1,24 @@
+import React from "react";
+import "./index.css";
+import {
+  FaInstagram,
+  FaFacebookF,
+  FaGithub,
+  FaTwitter,
+  FaLinkedinIn,
+  FaWhatsapp,
+  FaTelegram,
+} from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
+import {
+  BiLogoFacebook,
+  BiLogoFacebookSquare,
+  BiLogoLinkedinSquare,
+} from "react-icons/bi";
+import { BiLogoGmail } from "react-icons/bi";
+import { SiGeeksforgeeks } from "react-icons/si";
+import { FaPhoneAlt } from "react-icons/fa";
+
 
         <div className="social-login-icons  grid grid-cols-3 md:grid-cols-1 gap-4 p-4">
           <a href="tel:7251947890" className="flex justify-center items-center">
