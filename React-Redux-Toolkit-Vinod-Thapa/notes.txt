@@ -1,0 +1,8 @@
+slice = part or tukra mulitiple functanio in one 
+
+export def me {} nahi use hota
+
+onClick={() => addNewUser()}
+
+
+addNewUser()=>{}
