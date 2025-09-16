@@ -1,0 +1,71 @@
+
+main
+
+package BC.Spring;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class Application {
+	public static void main(String[] args) {
+		SpringApplication.run(Application.class, args);
+        System.out.print("Hello");
+	}
+}
+
+
+
+
+Check.java
+package BC.Spring;
+import org.springframework.stereotype.Component;
+@Component
+public class Check {
+    public String check() {
+        return "Check ";
+    }
+}
+
+
+
+
+
+
+AppConfig.java
+package BC.Spring;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+@Configuration
+public class AppConfig {
+    @Bean
+    public Check check() {
+        return new Check();
+    }
+}
+
+
+
+
+contact
+package BC.Spring;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class Contact {
+
+    @Autowired
+    private Check c;
+    
+    @GetMapping("/okk")
+    public String ok() {
+        return c.check();
+    }
+    @GetMapping("/contact")
+    public String contacts() {
+        return "Hello, How Are U";
+    }
+}
+
+
