@@ -1,0 +1,80 @@
+static to dynamic = 
+
+
+generateStaticParams = build time pr store kr leta h params jisse we dont do request to server
+
+useActionState = loading after form submit
+
+ useFormStatus =  Hook🔥Show Loading State on Submit Button in Next.js 15
+
+
+redirect = useed in server side
+
+useRouter = used in client component
+
+router.back , router.foreward
+
+useTransition
+
+- revlidatepath => Automatic refresh , after data enter in db
+
+To use framer motion use client on top = frontend
+
+---
+
+useref hook for gsap
+const cardRef = useRef();  
+    // set  
+    // to  
+    return  
+    }); 
+    },[]);  
+    useEffect(() = { 
+        const ctx = gsap. context (() = {
+         I  () => ctx.revert();
+
+
+=======> Embla carosouel
+
+----
+modal  = that requires user attention
+    > npx shadcn@latest add dialog
+
+
+import { Dialog, 
+DialogContent, 
+DialogDescription, 
+DialogHeader, 
+DialogTitle, 
+DialogTrigger, 
+} 
+from "@/components/ui/dialog";  
+
+export const DialogDemo = (
+
+    xport const DialogDemo = () { return (  <Dialog> <DialogTrigger>Open</DialogTrigger> <DialogContent> <DialogHeader> <DialogTitle>Are you absolutely sure ?< /DialogTitle> <DialogDescription> This action cannot be undone. This will permanently delete your account and remove your data from our servers. </DialogDescription> </DialogHeader> </DialogContent> Dialog  I
+)
+
+
+
+---------
+
+drawer - 
+
+Jo neeche se upar aata h like insta likes
+
+
+
+------------
+carosouel
+
+loke filpkat products
+
+
+--
+shadcn
+
+
+--- sooner toaster
+
+-- origin ui
