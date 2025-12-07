@@ -1,0 +1,32 @@
+tsconfig ek aise file jahan phle hi we define
+
+{} [] () - They are reference , so change will in parents
+else primitive
+
+use let and const more
+
+any - agar deful no type given it set
+let a;
+
+unknown - half typescript use 
+void 
+null
+undefined 
+never
+
+inference = var ko na batana ki type ky half h
+Type inference = apna dimag lga k btae ki ky type h
+type annotation
+const a : number
+a=10
+
+
+interfaces and type aliases
+
+agar same interface with same name then they merges
+
+creating new type
+
+type value = string
+
+constructor = car maker
